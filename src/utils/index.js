@@ -40,16 +40,16 @@ export function getTimeframe(timeWindow) {
 export function getPoolLink(token0Address, token1Address = null, remove = false) {
   if (!token1Address) {
     return (
-      `https://exchange.moonwalker.network/#/` +
+      `https://polygon-swap.moonwalker.network/#/` +
       (remove ? `remove` : `add`) +
-      `/${token0Address === '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' ? 'ETH' : token0Address}/${'ETH'}`
+      `/${token0Address === '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' ? 'WMATIC' : token0Address}/${'WMATIC'}`
     )
   } else {
     return (
-      `https://exchange.moonwalker.network/#/` +
+      `https://polygon-swap.moonwalker.network/#/` +
       (remove ? `remove` : `add`) +
-      `/${token0Address === '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' ? 'ETH' : token0Address}/${
-        token1Address === '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' ? 'ETH' : token1Address
+      `/${token0Address === '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' ? 'WMATIC' : token0Address}/${
+        token1Address === '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' ? 'WMATIC' : token1Address
       }`
     )
   }
@@ -57,11 +57,11 @@ export function getPoolLink(token0Address, token1Address = null, remove = false)
 
 export function getSwapLink(token0Address, token1Address = null) {
   if (!token1Address) {
-    return `https://exchange.moonwalker.network/#/swap?inputCurrency=${token0Address}`
+    return `https://polygon-swap.moonwalker.network/#/swap?inputCurrency=${token0Address}`
   } else {
-    return `https://exchange.moonwalker.network/#/swap?inputCurrency=${
-      token0Address === '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' ? 'ETH' : token0Address
-    }&outputCurrency=${token1Address === '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2' ? 'ETH' : token1Address}`
+    return `https://polygon-swap.moonwalker.network/#/swap?inputCurrency=${
+      token0Address === '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' ? 'WMATIC' : token0Address
+    }&outputCurrency=${token1Address === '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' ? 'WMATIC' : token1Address}`
   }
 }
 

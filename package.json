@@ -1,7 +1,7 @@
 {
   "name": "@moonwalkerswap/info",
   "private": true,
-  "homepage": "https://info.moonwalker.network",
+  "homepage": "https://polygon-info.moonwalker.network",
   "dependencies": {
     "@apollo/client": "^3.4.0-rc.20",
     "@popperjs/core": "^2.4.2",

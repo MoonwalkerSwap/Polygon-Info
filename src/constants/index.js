@@ -1,4 +1,4 @@
-export const FACTORY_ADDRESS = '0x8b9c0488e3768e3d969db6364e6e3741b41a2619'
+export const FACTORY_ADDRESS = '0x4196b2750d7f7d2220e094663f56225837dca618'
 
 export const BUNDLE_ID = '1'
 
@@ -12,7 +12,7 @@ export const timeframeOptions = {
 
 // token list urls to fetch tokens from - use for warnings on tokens and pairs
 export const SUPPORTED_LIST_URLS__NO_ENS = [
-  'https://raw.githubusercontent.com/MoonWalkerJim//MoonWalkerSwap-info/',
+  'https://raw.githubusercontent.com/MoonWalkerJim/Polygon-MoonwalkerSwap-info/',
 ]
 
 // hide from overview list

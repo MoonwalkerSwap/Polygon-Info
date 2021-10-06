@@ -2,12 +2,12 @@ import React from 'react'
 
 const Attribution = () => (
   <p className="attribution">
-    <a href="https://github.com/MoonWalkerJim/MoonWalker-info" rel="noopener noreferrer" target="_blank">
+    <a href="https://github.com/MoonWalkerJim/Polygon-Moonwalkerswap-info" rel="noopener noreferrer" target="_blank">
       Github
     </a>{' '}
     |{' '}
-    <a href="https://swap.moonwalker.network" rel="noopener noreferrer" target="_blank">
-      moonwalkerswap
+    <a href="https://polygon-swap.moonwalker.network" rel="noopener noreferrer" target="_blank">
+      polygon moonwalkerswap
     </a>{' '}
     |{' '}
     <a href="https://gifer.com/en/1Atv" rel="noopener noreferrer" target="_blank">
